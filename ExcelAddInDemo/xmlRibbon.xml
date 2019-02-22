@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui" onLoad="Ribbon_Load">
+  <ribbon>
+    <tabs>
+      <tab id="customTab" label="My Tab" insertAfterMso="TabAdd-ins">
+        <group id="myGroup" label="My Group">
+          <button id="btnGetData" label="Get" screentip="Get Data" onAction="OnGetDataClick"
+                  supertip="Gets data from the table." size="large"
+                  imageMso="ShapeDownArrow"/>
+          <button id="btnClearData" label="Clear" screentip="Table" onAction="OnClearClick"
+                  supertip="Clears data on the sheet." size="large"
+                  imageMso="DataFormDeleteRecord"/>
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>
+
